@@ -1,0 +1,48 @@
+/* Home */
+#home{
+    background: rgb(34, 132, 244);
+    background: linear-gradient(90deg, rgba(34,132,244) 50%, rgba(0,212,255,0.8) 100%);
+    /* min-height: 90vh; */
+    min-height: 500px;
+    /* curve reactangle */
+    /* border-radius: 0 0 15rem 15rem; */
+}
+.letter-space1{
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+}
+.letter-space2 {
+    letter-spacing: 0.06rem;
+    font-size: .75rem;
+    font-weight: 400;
+}
+/* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* form */
+.form{
+    background: rgb(34, 132, 244);
+    background: linear-gradient(90deg, rgba(34, 132, 244) 50%, rgba(0, 212, 255, 0.8) 100%);
+}
+
+/* Footer */
+.footer{
+    background: rgb(34, 132, 244);
+    background: linear-gradient(90deg, rgba(34, 132, 244) 50%, rgba(0, 212, 255, 0.8) 100%);
+}
+.link-add-txt li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.link-add-txt li a i{
+    margin-right: 0.5rem;
+}
